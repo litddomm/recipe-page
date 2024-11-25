@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  hsl(30, 54%, 90%);
+}
+
+.container{
+    background-color: white;
+    max-width: 650px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10% 20% 10% 30%;
+    border-radius: 1.3em;
+}
+
+.omletteImg{
+    max-width: 90%;
+    height: auto;
+    padding: 30px 30px;
+    border-radius: 50px;
+}
+
+.mainHeader{
+    max-width: 60%;
+    margin-bottom: 25px;
+    margin-right: 31%;
+}
+
+.omletteP{
+    max-width: 88%;
+    margin-bottom: 25px;
+}
+
+.preparationContainer{
+    background-color: hsl(330, 100%, 98%);
+    width: 89%;
+    margin-bottom: 50px;
+}
+
+.myUl{
+    margin:30px 30px;
+}
+
+/*
+.firstLi{
+    display:inline;
+    height: auto;
+    max-width: 100%;
+    flex-direction: column;
+    margin: 40px;
+    flex-basis: 50%;
+}
+    */
+
+.purpleP{
+    color: rgb(147, 160, 32);
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*changing the color of li dot*/
+
+.firstLi::marker{
+    color: rgb(147, 160, 32);
+}
+
+.firstSpan{
+    color: rgb(78, 10, 10);
+}
+
+.secondSpan{
+    color: rgb(78, 10, 10);
+}
+
+.thirdSpan{
+    color: rgb(78, 10, 10);
+}
+
+.secondHeader{
+    margin-right: 63%;
+    color:hsl(14, 45%, 36%);
+}
+
+.ingredientsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    margin-right: 100px;
+}
+
+@media  screen and (max-width:1200px) {
+    .ingredientsContainer{
+        margin: auto;
+    }
+}
+
+/*second list */
+
+
+.secondLi{
+    color: hsl(14, 45%, 36%);
+    margin: 20px;
+}
+
+.solid{
+    border-top: 1px solid rgb(202, 201, 201);
+    width: 120%;
+}
+
+
+.thirdHeader{
+    color: hsl(14, 45%, 36%);
+    margin: 20px 36px;
+}
+
+.thirdLi{
+    width: 80%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.thirdSpanText{
+    color: hsl(24, 5%, 18%)
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+p{
+    font-family: "Outfit";
+}
+
+.thirdSpanText{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+li{
+    font-family: "Outfit";
+}
+
+.secondHr{
+    border-top: 1px solid rgb(202, 201, 201);
+    width: 85%;
+    margin-left: 53px;
+    margin-bottom: 20px;
+}
+
+.nutritionContainer{
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    margin-left: 53px;
+}
+
+.fourthHeader{
+    color: hsl(14, 45%, 36%);
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.lastP{
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.lastUl{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lastUl li{
+    padding: 05 0;
+    margin: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+.lastUl li:last-child{
+    border-bottom: 0;
+}
