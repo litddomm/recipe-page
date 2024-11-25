@@ -126,6 +126,7 @@ body{
     margin-left: 60px;
     margin-bottom: 20px;
     color: hsl(14, 45%, 36%);
+    list-style-type: decimal;
 }
 
 .thirdSpanText{
